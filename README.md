@@ -30,4 +30,11 @@ Ensure you have [Python 3.9+](https://www.python.org/) installed.
 1. **Clone the repository:**
    ```bash
    git clone [https://github.com/RajRover/MNIST-Digit-Classification.git]((https://github.com/RajRover/MNIST-Digit-Classification.git))
-   cd mnist-model-comparison
+   cd MNIST-Digit-Classification
+2. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+3.Launch the application:
+
+```bash
+streamlit run app.py
